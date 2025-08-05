@@ -22,7 +22,7 @@ A feature-rich Discord bot built with [Disnake](https://docs.disnake.dev/), desi
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/InfiniteBot.git
+git clone https://github.com/OptimiDEV/InfiniteBot.git
 cd InfiniteBot
 ````
 
