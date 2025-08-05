@@ -4,7 +4,7 @@ A feature-rich Discord bot built with [Disnake](https://docs.disnake.dev/), desi
 
 ---
 
-## 🌟 Features
+## Features
 
 - 👋 Welcomes new members and announces when someone leaves.
 - 📺 Monitors YouTube channel uploads and posts new video links.
@@ -17,7 +17,7 @@ A feature-rich Discord bot built with [Disnake](https://docs.disnake.dev/), desi
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -47,7 +47,7 @@ pip install disnake yt-dlp google-generativeai better-profanity
 
 ---
 
-## 🔑 Configuration
+## Configuration
 
 In your `bot.py`, replace the following:
 
@@ -62,7 +62,7 @@ You can get a Google Gemini API key at: [https://makersuite.google.com/app/apike
 
 ---
 
-## 💬 Commands
+## Commands
 
 | Command    | Description                                |
 | ---------- | ------------------------------------------ |
@@ -72,7 +72,7 @@ You can get a Google Gemini API key at: [https://makersuite.google.com/app/apike
 
 ---
 
-## ⚠️ Message Reporting
+## Message Reporting
 
 Users can react to any message with:
 
@@ -83,19 +83,19 @@ These reports will be logged in the designated moderation channel.
 
 ---
 
-## 🧠 AI Integration (Gemini)
+## AI Integration (Gemini)
 
 Questions of the Day are generated using [Google Gemini](https://ai.google.dev/). The bot queries Gemini every day at **00:00** server time and sends the question to your configured channel.
 
 ---
 
-## 📺 YouTube Monitoring
+## YouTube Monitoring(Disabled)
 
 The bot checks the specified YouTube channel every 5 minutes and posts the latest video to the announcements channel with a role ping.
 
 ---
 
-## 🛡️ Auto Moderation
+## Auto Moderation
 
 Offensive messages (based on the built-in word list from `better-profanity`) are automatically deleted and logged.
 
