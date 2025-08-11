@@ -139,6 +139,19 @@ async def on_message(message):
         embed.add_field(name="Channel", value=message.channel.mention)
         await log_channel.send(embed=embed)
         return
+    
+    # --- @Mention Gemini Q&A ---
+    if bot.user in message.mentions:
+        question = message.content.replace(f"<@{bot.user.id}>", "").replace(f"<@!{bot.user.id}>", "").strip()
+        if question:
+            try:
+                response = gemini_model.generate_content(question)
+                answer = response.text.strip()
+                await message.reply(answer)
+            except Exception as e:
+                await message.reply(f"⚠️ An error occurred: `{e}`")
+        else:
+            await message.reply("❓ You mentioned me, but didn’t ask a question.")
 
     await bot.process_commands(message)
 
