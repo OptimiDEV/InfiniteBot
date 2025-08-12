@@ -1,4 +1,4 @@
-# 🤖 InfiniteBot
+# InfiniteBot
 
 A feature-rich Discord bot built with [Disnake](https://docs.disnake.dev/), designed for community moderation, YouTube monitoring, AI-generated content, and interaction automation.
 
@@ -101,7 +101,7 @@ Offensive messages (based on the built-in word list from `better-profanity`) are
 
 ---
 
-## 📦 Example `.env` (optional)
+## Example `.env` (optional)
 
 You can use `.env` to store secrets securely if you modify the bot to load from it:
 
@@ -127,5 +127,5 @@ MIT License. Use freely with attribution.
 
 
 
-Just say the word!
-```
+
+
