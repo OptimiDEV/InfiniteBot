@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfiniteBot 2.0 | Release Leipzig</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta property="og:title" content="InfiniteBot 2.0" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://optimidev.github.io/InfiniteBot/" />
+  <meta property="og:description" content="InfiniteBot Release 2.0 Leipzig — smarter, faster, and public!" />
+  <meta property="og:site_name" content="InfiniteBot" />
+  <meta property="og:locale" content="en_US" />
+  <style>
+    .crayon-underline {
+      text-decoration: underline;
+      text-decoration-color: #FFDE59; /* yellow crayon color */
+      text-decoration-thickness: 4px;
+      text-underline-offset: 6px;
+      text-decoration-style: wavy;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Hero Section -->
+  <header class="text-center py-20 bg-gradient-to-r from-purple-600 to-pink-600 shadow-lg">
+    <h1 class="text-5xl font-extrabold mb-4">InfiniteBot <span class="crayon-underline">Leipzig</span></h1>
+    <p class="text-lg max-w-2xl mx-auto mb-6">
+      Release 2.0 — smarter, safer, and now public! Enjoy AI, moderation, QOTD, and more.
+    </p>
+    <a href="https://discord.com/oauth2/authorize?client_id=1402191798775975956"
+       class="bg-white text-purple-700 font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-200 transition">
+       Invite to Discord
+    </a>
+  </header>
+
+  <!-- Changelog Section -->
+  <section class="max-w-5xl mx-auto py-16 px-6">
+    <h2 class="text-4xl font-bold mb-8 text-center">Changelog - Leipzig</h2>
+
+    <div class="bg-gray-800 p-6 rounded-xl shadow mb-8">
+      <h3 class="text-2xl font-semibold mb-4">✅ Fixed</h3>
+      <ul class="list-disc list-inside text-gray-300 space-y-2">
+        <li>AI saying slurs</li>
+        <li>QOTDs sometimes not working</li>
+        <li>AI's sometimes crashing</li>
+      </ul>
+    </div>
+
+    <div class="bg-gray-800 p-6 rounded-xl shadow">
+      <h3 class="text-2xl font-semibold mb-4">✨ New Features</h3>
+      <ul class="list-disc list-inside text-gray-300 space-y-2">
+        <li>InfiniteBot is now public for everyone to add to their servers</li>
+        <li>Switched data storage from variables to sqlite3</li>
+        <li>Added setup commands:
+          <ul class="list-disc list-inside ml-6 text-gray-400 space-y-1">
+            <li>/setup_ai</li>
+            <li>/setup_moderation</li>
+            <li>/forceqotd</li>
+            <li>/setup_welcome</li>
+            <li>…and more in <a href="https://optimidev.github.io/InfiniteBot/docs/" class="text-yellow-400 hover:underline">docs</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6 text-center">
+    <p>© 2025 InfiniteBot Contributors • Not affiliated with Discord Inc.</p>
+    <a href="privacy.html" class="hover:underline">Privacy Policy</a>
+    <a href="tos.html" class="hover:underline">Terms of Service</a>
+  </footer>
+
+</body>
+</html>
